@@ -1,0 +1,31 @@
+.trade_header{
+    padding: 15px;
+    font-size: 20px;
+}
+.side_option{
+    margin: 0px 13px;
+    background-color: #d4d4d4;
+    border-radius: 7px;
+    padding: 5px 15px;
+}
+.side_label{
+    margin: 10px;
+}
+.quantity_label{
+    margin: 0px 13px;
+    background-color: #d4d4d4;
+    border-radius: 7px;
+    padding: 5px 15px;
+    border-color: #ababab;
+}
+.order_btn{
+    margin: 0px 13px;
+    background-color: #d4d4d4;
+    border-radius: 7px;
+    padding: 5px 15px;
+    border-color: #ababab;
+}
+.order_btn:hover{
+    background-color: #838383;
+    border: none;
+}

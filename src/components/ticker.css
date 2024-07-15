@@ -1,0 +1,7 @@
+.chart-container {
+    position: relative;
+    /* margin: auto; */
+    height: 400px;
+    width: 95%;
+    background-color: hsla(0, 2%, 16%, 0.94);
+  }

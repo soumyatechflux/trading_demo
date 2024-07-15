@@ -1,0 +1,30 @@
+.main{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+header h1{
+    margin: 0px;
+    padding: 30px 20px;
+}
+.container{
+    display: flex;
+    background-color: #0000008a;
+}
+.api_chart{
+    background-color: #171717;
+    margin: 5px;
+}
+.trade_form{
+    margin: 5px;
+    padding: 10px;
+    background-color: #171717;
+}
+.history_table{
+    margin: 5px;
+    background-color: #171717;
+}
+.left_table{
+    background-color: #171717;
+    width: 100%;
+    margin: 5px 0px;
+}

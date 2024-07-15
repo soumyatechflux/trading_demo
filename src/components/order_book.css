@@ -1,0 +1,41 @@
+
+.order_table_header{
+    font-size: 20px;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    /* margin: 20px 0; */
+    font-size: 10px;
+    font-family: 'Arial', sans-serif;
+    background-color: #282828;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  thead tr {
+    background-color: #616161;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #393939;
+  }
+  
+  tbody tr:hover {
+    background-color: #474747;
+  }
+  
+  th,
+  td {
+    padding: 9px 10px;
+  }
+  
+  /* Zebra striping */
+  tbody tr:nth-of-type(even) {
+    background-color: #333333;
+  }
+  
+ 

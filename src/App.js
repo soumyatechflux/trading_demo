@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Main_page from './components/Main_page';
+// import Ticker from './components/Ticker';
+// import ApexChart from './components/ApexChart'
+import Trade from './components/Trade';
+import TradeHistory from './components/TradeHistory';
 
-function App() {
+const App = () => {
+  const [selectedSymbol, setSelectedSymbol] = useState('BTCUSDT');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <main>
+        <Main_page />
+        {/* <Ticker /> */}
+        {/* <ApexChart /> */} 
+        {/* <Trade symbol={selectedSymbol} /> */}
+        {/* <TradeHistory symbol={selectedSymbol} /> */}
+        
+        
+      </main>
     </div>
   );
-}
+};
 
 export default App;
